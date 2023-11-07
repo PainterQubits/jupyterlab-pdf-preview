@@ -1,0 +1,19 @@
+{
+  "name": "jupyterlab-pdf-preview",
+  "version": "0.1.0",
+  "description": "JupyterLab extension to preview PDF files in the file browser on hover.",
+  "contributors": [
+    {
+      "name": "Alex Hadley",
+      "email": "contact@alexhadley.net"
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "homepage": "https://github.com/PainterQubits/jupyterlab-pdf-preview",
+  "repository": "github:PainterQubits/jupyterlab-pdf-preview"
+}

@@ -13,7 +13,6 @@ To develop, the following dependencies must be installed:
 - [Python](https://www.python.org/downloads/)
 - [Hatch](https://hatch.pypa.io/latest/install/)
 - [Node.js](https://nodejs.org/en/download)
-- [Yarn](https://yarnpkg.com/getting-started/install)
 
 To install Node.js dependencies, run:
 
