@@ -48,3 +48,7 @@ npm = ["jlpm"]
 
 [tool.hatch.envs.default]
 dependencies = ["jupyterlab>=4.0.8,<5"]
+
+[tool.hatch.envs.ci]
+detached = true
+dependencies = ["jupyterlab>=4.0.8,<5"]

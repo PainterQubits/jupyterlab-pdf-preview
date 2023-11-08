@@ -10,7 +10,6 @@ on:
 
 env:
   HATCH_VERSION: "1.7.0"
-  PYTHON_VERSION: "3.9"
   PYTHON_PACKAGE_NAME: "jupyterlab_pdf_preview"
 
 jobs:
@@ -22,12 +21,6 @@ jobs:
 
       - name: Install Hatch
         run: pipx install hatch==${{ env.HATCH_VERSION }}
-
-      - name: Set up Python with pip cache
-        uses: actions/setup-python@v4
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-          cache: "pip"
 
       - name: Set up Node
         uses: actions/setup-node@v4
@@ -43,7 +36,4 @@ jobs:
             yarn-${{ runner.os }}-
 
       - name: Lint frontend
-        run: hatch run jlpm lint
-
-      - name: Hatch Python version
-        run: hatch run python --version
+        run: hatch run ci:jlpm lint
