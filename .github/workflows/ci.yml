@@ -44,3 +44,6 @@ jobs:
 
       - name: Lint frontend
         run: hatch run jlpm lint
+
+      - name: Hatch Python version
+        run: hatch run python --version
