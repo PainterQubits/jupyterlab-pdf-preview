@@ -28,3 +28,23 @@ source = "nodejs"
 
 [tool.hatch.metadata.hooks.nodejs]
 fields = ["description", "authors", "urls", "keywords"]
+
+[tool.hatch.build.targets.sdist]
+artifacts = ["labextension"]
+
+[tool.hatch.build.targets.wheel.shared-data]
+"labextension" = "share/jupyter/labextensions/jupyterlab-pdf-preview"
+"install.json" = "share/jupyter/labextensions/jupyterlab-pdf-preview/install.json"
+
+[tool.hatch.build.hooks.jupyter-builder]
+dependencies = ["hatch-jupyter-builder>=0.8.3"]
+build-function = "hatch_jupyter_builder.npm_builder"
+ensured-targets = ["labextension/package.json"]
+skip-if-exists = ["labextension/package.json"]
+
+[tool.hatch.build.hooks.jupyter-builder.build-kwargs]
+build_cmd = "build"
+npm = ["jlpm"]
+
+[tool.hatch.envs.default]
+dependencies = ["jupyterlab>=4.0.8,<5"]

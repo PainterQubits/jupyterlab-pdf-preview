@@ -14,25 +14,27 @@ To develop, the following dependencies must be installed:
 - [Hatch](https://hatch.pypa.io/latest/install/)
 - [Node.js](https://nodejs.org/en/download)
 
-To install Node.js dependencies, run:
+To build the extension and start up a JupyterLab server for development, run:
 
 ```bash
-yarn
-```
-
-Then, to build the extension and start up a JupyterLab server for development, run:
-
-```bash
-yarn dev
+hatch run jlpm dev
 ```
 
 When the source code changes, the extension should be automatically rebuilt, and the
 updated extension will be used when the page is reloaded.
 
 > [!NOTE]  
-> On Windows, symbolic links must be activated for `yarn dev` to work. On Windows 10 or
-> above, this can be done by
+> On Windows, symbolic links must be activated for `hatch run jlpm dev` to work. On
+> Windows 10 or above, this can be done by
 > [activating developer mode](https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development).
 >
-> Alternatively, you can run `yarn preview` to completely rebuild and reinstall the
-> extension each time the source code changes.
+> Alternatively, you can run
+>
+> ```bash
+> hatch run jlpm clean
+> hatch env remove default
+> hatch run jupyter lab
+> ```
+>
+> to completely reinstall the extension and start JupyterLab each time the source code
+> changes.
