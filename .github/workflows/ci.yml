@@ -35,5 +35,8 @@ jobs:
           restore-keys: |
             yarn-${{ runner.os }}-
 
+      - name: Install Node dependencies
+        run: hatch run ci:jlpm
+
       - name: Lint frontend
         run: hatch run ci:jlpm lint
