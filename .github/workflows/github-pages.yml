@@ -18,6 +18,19 @@ jobs:
       - name: Install Hatch
         run: pipx install hatch==${{ env.HATCH_VERSION }}
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+
+      - name: Yarn cache
+        uses: actions/cache@v3
+        with:
+          path: .yarn/cache
+          key: yarn-${{ runner.os }}-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            yarn-${{ runner.os }}-
+
       - name: Build package
         run: hatch build
 

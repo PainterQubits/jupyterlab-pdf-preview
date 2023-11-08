@@ -4,7 +4,15 @@ JupyterLab extension to preview PDF files in the file browser on hover.
 
 ## Installation
 
-Coming soon.
+Install the latest version of JupyterLab PDF Preview using pip:
+
+```
+pip install -U jupyterlab-pdf-preview --extra-index-url https://painterqubits.github.io/jupyterlab-pdf-preview/releases
+```
+
+This extension should run alongside
+[JupyterLab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)
+version 4.
 
 ## Development
 
