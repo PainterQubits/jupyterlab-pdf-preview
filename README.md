@@ -25,15 +25,15 @@ To develop, the following dependencies must be installed:
 To build the extension and start up a JupyterLab server for development, run:
 
 ```bash
-hatch run jlpm dev
+hatch run dev
 ```
 
 When the source code changes, the extension should be automatically rebuilt, and the
 updated extension will be used when the page is reloaded.
 
 > [!NOTE]  
-> On Windows, symbolic links must be activated for `hatch run jlpm dev` to work. On
-> Windows 10 or above, this can be done by
+> On Windows, symbolic links must be activated for `hatch run dev` to work. On Windows 10
+> or above, this can be done by
 > [activating developer mode](https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development).
 >
 > Alternatively, you can run
