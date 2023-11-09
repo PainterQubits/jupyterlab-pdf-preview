@@ -7,6 +7,10 @@ project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Added
+
+- Latest source distribution (latest.tar.gz) added to Pages site.
+
 ### Changed
 
 - Plugin ID is `jupyterlab-pdf-preview:plugin`
