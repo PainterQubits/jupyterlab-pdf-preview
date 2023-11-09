@@ -39,7 +39,7 @@ updated extension will be used when the page is reloaded.
 > Alternatively, you can run
 >
 > ```bash
-> hatch run jlpm clean
+> hatch run clean
 > hatch env remove default
 > hatch run jupyter lab
 > ```
