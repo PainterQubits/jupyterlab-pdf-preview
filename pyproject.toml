@@ -47,8 +47,10 @@ build_cmd = "build"
 npm = ["jlpm"]
 
 [tool.hatch.envs.default]
+description = "For running JupyterLab in development"
 dependencies = ["jupyterlab>=4.0.8,<5"]
 
 [tool.hatch.envs.ci]
+description = "For running jlpm in CI without building and installing this package"
 detached = true
 dependencies = ["jupyterlab>=4.0.8,<5"]

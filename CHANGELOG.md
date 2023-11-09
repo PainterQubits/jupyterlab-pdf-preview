@@ -7,6 +7,10 @@ project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Changed
+
+- Plugin ID is `jupyterlab-pdf-preview:plugin`
+
 ## [0.1.0] (Nov 8 2023)
 
 ### Added
