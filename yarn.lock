@@ -785,8 +785,8 @@ __metadata:
   linkType: hard
 
 "@rjsf/core@npm:^5.1.0":
-  version: 5.13.5
-  resolution: "@rjsf/core@npm:5.13.5"
+  version: 5.13.6
+  resolution: "@rjsf/core@npm:5.13.6"
   dependencies:
     lodash: ^4.17.21
     lodash-es: ^4.17.21
@@ -796,13 +796,13 @@ __metadata:
   peerDependencies:
     "@rjsf/utils": ^5.12.x
     react: ^16.14.0 || >=17
-  checksum: a592ecf69c427b05a3ed9f1dd6174b56f7ce9f3814eb014e73aac73f1d0bec173d773458dee98209a073a3aaf6d77bb6e565cedc0135f15ce0c8beb688e0efc9
+  checksum: 7c8782030ac661fccd36226d84bca701af8e42717cb0560fb606784d358b1724288275f7ec2f9905b2a006ab65aa51525176d180908c6817b432afff4e989bdb
   languageName: node
   linkType: hard
 
 "@rjsf/utils@npm:^5.1.0":
-  version: 5.13.5
-  resolution: "@rjsf/utils@npm:5.13.5"
+  version: 5.13.6
+  resolution: "@rjsf/utils@npm:5.13.6"
   dependencies:
     json-schema-merge-allof: ^0.8.1
     jsonpointer: ^5.0.1
@@ -811,7 +811,7 @@ __metadata:
     react-is: ^18.2.0
   peerDependencies:
     react: ^16.14.0 || >=17
-  checksum: f3205c7f3ec2832aef62526ca84cf64722bbc1402e7591fc497805973289d434f7094b59759242b682a26b275408c69aa5349d2c22393364a7d0685ae0bb29ba
+  checksum: 1e6cdca9f547db4b96561752150c0aa4255426fa32ae84ea017b221e5816e7eb9ed985e9dbb73f1d83baaae36f892f1d10e2bf81d8a53f7e42b2bfc7df52d8e4
   languageName: node
   linkType: hard
 
@@ -872,7 +872,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.0.26":
+"@types/react@npm:^18.0.26, @types/react@npm:^18.2.37":
   version: 18.2.37
   resolution: "@types/react@npm:18.2.37"
   dependencies:
@@ -2123,9 +2123,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.535":
-  version: 1.4.578
-  resolution: "electron-to-chromium@npm:1.4.578"
-  checksum: 9c5e6843e6975adfedb7505b817f07bc91f4f4d3744616406983ed9327b722f045b72d98aa2146b279ba0eecec60ca065b316771b2de7ac6b7a42edcb3e9bb21
+  version: 1.4.579
+  resolution: "electron-to-chromium@npm:1.4.579"
+  checksum: 42fcb8608c68f8c7568d1ef6cd48f6a2133f1089e26b203ead7eed47cf0c15ece66824de8076d51b11f2693598cec5cf756fbb67dfa7a70e7cdfaadd26ae257b
   languageName: node
   linkType: hard
 
@@ -3687,6 +3687,7 @@ __metadata:
     "@jupyterlab/builder": ^4.0.8
     "@jupyterlab/filebrowser": ^4.0.8
     "@jupyterlab/services": ^7.0.8
+    "@types/react": ^18.2.37
     "@typescript-eslint/eslint-plugin": ^6.10.0
     "@typescript-eslint/parser": ^6.10.0
     eslint: ^8.53.0
