@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 env:
   HATCH_VERSION: "1.7.0"
-  PACKAGE_VERSION: "0.1.0"
+  PACKAGE_VERSION: "0.1.1"
   PACKAGE_NAME: "jupyterlab-pdf-preview"
   PYTHON_PACKAGE_NAME: "jupyterlab_pdf_preview"
 

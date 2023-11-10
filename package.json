@@ -1,6 +1,6 @@
 {
   "name": "jupyterlab-pdf-preview",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JupyterLab extension to preview PDF files in the file browser on hover.",
   "contributors": [
     {
