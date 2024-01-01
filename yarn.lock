@@ -872,7 +872,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.0.26, @types/react@npm:^18.2.37":
+"@types/react@npm:^18.0.26":
   version: 18.2.37
   resolution: "@types/react@npm:18.2.37"
   dependencies:
@@ -880,6 +880,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 2d2599f1a09e4f678509161fea8baeaf76d21deee460f4f3ccc1ca431ebe85f896d7d0b906127de17e97ed57240cec61955eb97d0b5d9cbf4e97fd6620b1acdb
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^18.2.46":
+  version: 18.2.46
+  resolution: "@types/react@npm:18.2.46"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: cb0e4dc7f41988a059e1246a19ec377101f5b16097ec4bf7000ef3c431ec0c8c873f40e95075821f908db1f4e3352775f0f18cea53dcad14dce67c0f5110f2bd
   languageName: node
   linkType: hard
 
@@ -3687,7 +3698,7 @@ __metadata:
     "@jupyterlab/builder": ^4.0.8
     "@jupyterlab/filebrowser": ^4.0.8
     "@jupyterlab/services": ^7.0.8
-    "@types/react": ^18.2.37
+    "@types/react": ^18.2.46
     "@typescript-eslint/eslint-plugin": ^6.10.0
     "@typescript-eslint/parser": ^6.10.0
     eslint: ^8.53.0
@@ -5776,11 +5787,11 @@ __metadata:
 
 "typescript@patch:typescript@^5.2.2#~builtin<compat/typescript>":
   version: 5.2.2
-  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=85af82"
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 07106822b4305de3f22835cbba949a2b35451cad50888759b6818421290ff95d522b38ef7919e70fb381c5fe9c1c643d7dea22c8b31652a717ddbd57b7f4d554
+  checksum: 0f4da2f15e6f1245e49db15801dbee52f2bbfb267e1c39225afdab5afee1a72839cd86000e65ee9d7e4dfaff12239d28beaf5ee431357fcced15fb08583d72ca
   languageName: node
   linkType: hard
 
