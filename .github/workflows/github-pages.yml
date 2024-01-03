@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on: workflow_dispatch
 
 env:
-  HATCH_VERSION: "1.7.0"
+  HATCH_VERSION: "1.9.1"
   PACKAGE_VERSION: "0.1.1"
   PACKAGE_NAME: "jupyterlab-pdf-preview"
   PYTHON_PACKAGE_NAME: "jupyterlab_pdf_preview"
@@ -70,7 +70,7 @@ jobs:
         run: mv dist/* _site/releases/${{ env.PACKAGE_NAME }}
 
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
 
   deploy:
     needs: build
@@ -84,4 +84,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4

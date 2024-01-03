@@ -9,7 +9,7 @@ on:
       - main
 
 env:
-  HATCH_VERSION: "1.7.0"
+  HATCH_VERSION: "1.9.1"
   PYTHON_PACKAGE_NAME: "jupyterlab_pdf_preview"
 
 jobs:
