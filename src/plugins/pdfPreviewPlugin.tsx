@@ -122,7 +122,7 @@ export const pdfPreviewPlugin: JupyterFrontEndPlugin<void> = {
   description: "Preview PDF files in the file browser on hover.",
   autoStart: true,
   requires: [IDefaultFileBrowser],
-  activate: ({ serviceManager }: JupyterFrontEnd, fileBrowser: IDefaultFileBrowser) => {
+  activate({ serviceManager }: JupyterFrontEnd, fileBrowser: IDefaultFileBrowser) {
     const { dirListing, node: fileBrowserNode } = fileBrowser;
 
     const pdfState: {
