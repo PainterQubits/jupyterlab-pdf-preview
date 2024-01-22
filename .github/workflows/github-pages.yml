@@ -24,7 +24,7 @@ jobs:
           node-version-file: .nvmrc
 
       - name: Yarn cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: .yarn/cache
           key: yarn-${{ runner.os }}-${{ hashFiles('yarn.lock') }}
