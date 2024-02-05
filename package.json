@@ -34,6 +34,7 @@
     "watch:labextension": "jupyter labextension watch .",
     "jupyterlab": "hatch run jupyter lab"
   },
+  "packageManager": "yarn@3.5.0",
   "dependencies": {
     "@jupyterlab/application": "^4.0.10",
     "@jupyterlab/filebrowser": "^4.0.10",
