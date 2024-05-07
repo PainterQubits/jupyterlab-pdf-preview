@@ -39,7 +39,7 @@
     "@jupyterlab/application": "^4.0.10",
     "@jupyterlab/filebrowser": "^4.0.10",
     "@jupyterlab/services": "^7.0.10",
-    "react-pdf": "^7.6.0"
+    "react-pdf": "^7.7.3"
   },
   "devDependencies": {
     "@jupyterlab/builder": "^4.0.10",

@@ -3700,7 +3700,7 @@ __metadata:
     eslint-plugin-react-hooks: ^4.6.0
     npm-run-all: ^4.1.5
     prettier: ^3.1.1
-    react-pdf: ^7.6.0
+    react-pdf: ^7.7.3
     rimraf: ^5.0.5
     typescript: ^5.3.3
   languageName: unknown
@@ -4796,9 +4796,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-pdf@npm:^7.6.0":
-  version: 7.7.0
-  resolution: "react-pdf@npm:7.7.0"
+"react-pdf@npm:^7.7.3":
+  version: 7.7.3
+  resolution: "react-pdf@npm:7.7.3"
   dependencies:
     clsx: ^2.0.0
     dequal: ^2.0.3
@@ -4816,7 +4816,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 624634b353d7dd1758ef0d5651a880e81463673fdf4363eeedb0d651a46af594369e980fcfafb392a64bf96c053e2537f405af9f02b28957ae7ae60600896679
+  checksum: c8fba8ca542275ec7f284fd43b2dc0bca01fe20fa9d1684ff8b95ea1ba2537f3b2bb48ddd43aa68b6972857ce3a309e2ccf63790c8d3541135d3f186fc9ea335
   languageName: node
   linkType: hard
 
