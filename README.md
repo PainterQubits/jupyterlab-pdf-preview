@@ -1,5 +1,10 @@
 # JupyterLab PDF Preview
 
+[![PyPI Latest Release](https://img.shields.io/pypi/v/jupyterlab-pdf-preview)](https://pypi.org/project/jupyterlab-pdf-preview/)
+[![PyPI Python Versions](https://img.shields.io/pypi/pyversions/jupyterlab-pdf-preview)](https://pypi.org/project/jupyterlab-pdf-preview/)
+[![License](https://img.shields.io/pypi/l/jupyterlab-pdf-preview)](https://github.com/PainterQubits/jupyterlab-pdf-preview/blob/main/LICENSE)
+[![CI](https://github.com/PainterQubits/jupyterlab-pdf-preview/actions/workflows/ci.yml/badge.svg)](https://github.com/PainterQubits/jupyterlab-pdf-preview/actions/workflows/ci.yml)
+
 JupyterLab extension to preview PDF files in the file browser on hover.
 
 ## Installation
@@ -7,7 +12,7 @@ JupyterLab extension to preview PDF files in the file browser on hover.
 Install the latest version of JupyterLab PDF Preview using pip:
 
 ```
-pip install -U jupyterlab-pdf-preview --extra-index-url https://painterqubits.github.io/jupyterlab-pdf-preview/releases
+pip install -U jupyterlab-pdf-preview
 ```
 
 This extension should run alongside
