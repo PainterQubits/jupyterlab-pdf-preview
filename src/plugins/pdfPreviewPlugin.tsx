@@ -6,6 +6,7 @@ import { IDefaultFileBrowser } from "@jupyterlab/filebrowser";
 import { ReactWidget, UseSignal } from "@jupyterlab/ui-components";
 import { PDF_MIMETYPE, PDF_PREVIEW_WIDTH, PDF_PREVIEW_BORDER_WIDTH } from "@/constants";
 import { calcPdfPreviewPosition } from "@/utils";
+// eslint-disable-next-line import/no-unresolved
 import pdfjsWorkerUrl from "pdfjs-dist/build/pdf.worker.js?file-url";
 
 // Set the URL for the PDF.js worker
