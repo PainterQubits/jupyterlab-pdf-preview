@@ -3,10 +3,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "05:00"
-      timezone: "America/Los_Angeles"
+      interval: "monthly"
     groups:
       github-actions:
         patterns: ["*"]
@@ -14,10 +11,7 @@ updates:
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "04:00"
-      timezone: "America/Los_Angeles"
+      interval: "monthly"
     groups:
       python:
         update-types: ["minor", "patch"]
@@ -25,10 +19,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "04:00"
-      timezone: "America/Los_Angeles"
+      interval: "monthly"
     groups:
       javascript:
         update-types: ["minor", "patch"]

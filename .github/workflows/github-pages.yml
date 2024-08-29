@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on: workflow_dispatch
 
 env:
-  HATCH_VERSION: "1.9.1"
+  HATCH_VERSION: "1.12.0"
   PACKAGE_VERSION: "0.1.1"
   PACKAGE_NAME: "jupyterlab-pdf-preview"
   PYTHON_PACKAGE_NAME: "jupyterlab_pdf_preview"
