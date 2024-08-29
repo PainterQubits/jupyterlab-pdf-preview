@@ -7,6 +7,12 @@ project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.2.1] (Aug 29 2024)
+
+### Fixed
+
+- A bug with an internal package import was fixed.
+
 ## [0.2.0] (Aug 29 2024)
 
 - Public release of JupyterLab PDF Preview.
@@ -27,7 +33,8 @@ project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 - JupyterLab extension to preview PDF files in the file browser on hover.
 
-[unreleased]: https://github.com/PainterQubits/jupyterlab-pdf-preview/compare/v0.2.0...main
+[unreleased]: https://github.com/PainterQubits/jupyterlab-pdf-preview/compare/v0.2.1...main
+[0.2.1]: https://github.com/PainterQubits/jupyterlab-pdf-preview/releases/tag/v0.2.1
 [0.2.0]: https://github.com/PainterQubits/jupyterlab-pdf-preview/releases/tag/v0.2.0
 [0.1.1]: https://github.com/PainterQubits/jupyterlab-pdf-preview/releases/tag/v0.1.1
 [0.1.0]: https://github.com/PainterQubits/jupyterlab-pdf-preview/releases/tag/v0.1.0
